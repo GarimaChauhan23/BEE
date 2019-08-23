@@ -1,0 +1,66 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	 .customFooter{
+      padding-left: 0 !important;
+      margin-bottom: 20px;
+    }
+	</ui:style>
+	<g:HTMLPanel>
+	 <m:MaterialRow addStyleNames="code">
+      <m:MaterialBadge text="FEATURE UPDATE" textColor="AMBER" shadow="1" layoutPosition="RELATIVE" float="RIGHT" backgroundColor="AMBER_LIGHTEN_5" />
+      <m:MaterialTitle title="WELCOME" description=""/>
+
+      <m:MaterialSlider ui:field="optionSlider" duration="300" interval="1000">
+        <m:MaterialSlideItem>
+          <m:MaterialImage url="https://cdn.lifehack.org/wp-content/uploads/2015/03/10-Reasons-Why-People-Who-Read-A-Lot-Are-More-Likely-To-Be-Successful.jpg"/>
+          <m:MaterialSlideCaption textAlign="CENTER">
+            <m:MaterialTitle title="" description=""/>
+          </m:MaterialSlideCaption>
+        </m:MaterialSlideItem>
+
+        <m:MaterialSlideItem>
+          <m:MaterialImage url="http://culture.affinitymagazine.us/wp-content/uploads/2017/05/635873821517718970351055939_Stack-of-books-great-education.jpg"/>
+          <m:MaterialSlideCaption textAlign="LEFT">
+            <m:MaterialTitle title="" description=""/>
+          </m:MaterialSlideCaption>
+        </m:MaterialSlideItem>
+
+        <m:MaterialSlideItem>
+          <m:MaterialImage url="https://thumbs.dreamstime.com/z/business-people-discussion-table-using-variety-electronic-devices-grey-office-computer-tablet-printed-paper-charts-88259119.jpg"/>
+          <m:MaterialSlideCaption textAlign="RIGHT">
+            <m:MaterialTitle title="" description=""/>
+          </m:MaterialSlideCaption>
+        </m:MaterialSlideItem>
+
+        <m:MaterialSlideItem>
+          <m:MaterialImage url="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR5ziux6tpRFMM-hqzV4zix-MO2fsN8ueIDdcMP3dbpRHWzAlqrA"/>
+          <m:MaterialSlideCaption textAlign="CENTER">
+            <m:MaterialTitle title="" description=""/>
+          </m:MaterialSlideCaption>
+        </m:MaterialSlideItem>
+      </m:MaterialSlider>
+      <m:MaterialFooter ui:field="footer" addStyleNames="{style.customFooter}" backgroundColor="YELLOW_DARKEN_3">
+        <m:MaterialRow>
+          <m:MaterialColumn grid="s12 m6 l6">
+            <m:MaterialTitle textColor="WHITE" title="About Us" description="We provide Gitter Chat rooms in order for GWT Developers discussed and collaborate about GWT Material Design and Phonegap Integration."/>
+            
+          </m:MaterialColumn>
+          <m:MaterialColumn grid="s12 m6 l6">
+            <m:MaterialTitle textColor="WHITE" title="Contact " description="We provide Gitter Chat rooms in order for GWT Developers discussed and collaborate about GWT Material Design and Phonegap Integration."/>
+            
+          </m:MaterialColumn>
+        </m:MaterialRow>
+  
+        <m:MaterialFooterCopyright addStyleNames="footer-copyright">
+          <m:MaterialLabel text="© 2015 Copyright " />
+        </m:MaterialFooterCopyright>
+      </m:MaterialFooter>
+    </m:MaterialRow>
+	</g:HTMLPanel>
+</ui:UiBinder> 

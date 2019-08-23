@@ -1,0 +1,106 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui"
+	xmlns:client="urn:import:gwt.material.design.addins.client"
+
+	xmlns:m.addins="urn:import:gwt.material.design.addins.client">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+		<!-- <m:MaterialRow addStyleNames="code">
+			<m:MaterialRow>
+				<m:MaterialTitle title="Books" />
+				<m:MaterialColumn grid="l3">
+					<m:MaterialCard backgroundColor="WHITE">
+						<m:MaterialCardImage waves="LIGHT">
+							<client:webp.MaterialWebpImage
+								url="https://s3-us-west-2.amazonaws.com/tabs.web.media/a/d/ad0y/ad0y-square-1536.jpg"
+								fallbackExtension="jpg" />
+							<m:MaterialCardTitle />
+						</m:MaterialCardImage>
+						<m:MaterialCardContent textColor="BLACK">
+							<m:MaterialLabel
+								text="The Kite Runner is the story of Amir, a Sunni Muslim, who struggles to find his place in the world because of the aftereffects and fallout from a series of trau." />
+						</m:MaterialCardContent>
+						<m:MaterialCardAction>
+							<m:MaterialButton text="RENT" ui:field="b1"
+								backgroundColor="AMBER" />
+							<m:MaterialButton text="EXCHANGE" ui:field="b2"
+								backgroundColor="AMBER" />
+						</m:MaterialCardAction>
+					</m:MaterialCard>
+				</m:MaterialColumn>
+				<m:MaterialColumn grid="l3">
+					<m:MaterialCard backgroundColor="WHITE">
+						<m:MaterialCardImage waves="LIGHT">
+							<client:webp.MaterialWebpImage
+								url="https://www.montana.edu/assets/images/o4owv/image8.jpg"
+								fallbackExtension="jpg" />
+							<m:MaterialCardTitle />
+						</m:MaterialCardImage>
+						<m:MaterialCardContent textColor="BLACK">
+							<m:MaterialLabel
+								text=" Anthony Doerr's All the Light We Cannot See tells the story of two teenagers during World War II (WWII), one a blind girl in Nazi-occupied France, the other a German orphan boy pressed into service by the Nazi army." />
+						</m:MaterialCardContent>
+						<m:MaterialCardAction>
+							<m:MaterialButton text="RENT" ui:field="b3"
+								backgroundColor="AMBER" />
+							<m:MaterialButton text="EXCHANGE" ui:field="b4"
+								backgroundColor="AMBER" />
+						</m:MaterialCardAction>
+					</m:MaterialCard>
+				</m:MaterialColumn>
+				<m:MaterialColumn grid="l3">
+					<m:MaterialCard backgroundColor="WHITE">
+						<m:MaterialCardImage waves="LIGHT">
+							<client:webp.MaterialWebpImage
+								url="https://images-na.ssl-images-amazon.com/images/I/61X0uIN%2BSjL._SX258_BO1,204,203,200_.jpg"
+								fallbackExtension="jpg" />
+							<m:MaterialCardTitle />
+						</m:MaterialCardImage>
+						<m:MaterialCardContent textColor="BLACK">
+							<m:MaterialLabel
+								text=" Particle physics (also known as high energy physics) is a branch of physics that studies the nature of the particles that constitute matter and radiation." />
+						</m:MaterialCardContent>
+						<m:MaterialCardAction>
+							<m:MaterialButton text="RENT" ui:field="b5"
+								backgroundColor="AMBER" />
+							<m:MaterialButton text="EXCHANGE" ui:field="b6"
+								backgroundColor="AMBER" />
+						</m:MaterialCardAction>
+					</m:MaterialCard>
+				</m:MaterialColumn>
+				<m:MaterialColumn grid="l3">
+					<m:MaterialCard backgroundColor="WHITE">
+						<m:MaterialCardImage waves="LIGHT">
+							<client:webp.MaterialWebpImage
+								url="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1447303603i/2767052._UY473_SS473_.jpg"
+								fallbackExtension="jpg" />
+							<m:MaterialCardTitle />
+						</m:MaterialCardImage>
+						<m:MaterialCardContent textColor="BLACK">
+							<m:MaterialLabel
+								text=" The Hunger Games is a 2008 dystopian novel by the American writer Suzanne Collins. It is written in the voice of 16-year-old Katniss Everdeen, who lives in the future, post-apocalyptic nation of Panem in North America." />
+						</m:MaterialCardContent>
+						<m:MaterialCardAction>
+							<m:MaterialButton text="RENT" ui:field="b7"
+								backgroundColor="AMBER" />
+							<m:MaterialButton text="EXCHANGE" ui:field="b8"
+								backgroundColor="AMBER" />
+						</m:MaterialCardAction>
+					</m:MaterialCard>
+				</m:MaterialColumn>
+
+			</m:MaterialRow>
+		</m:MaterialRow>
+ -->
+
+
+
+
+	</g:HTMLPanel>
+</ui:UiBinder> 

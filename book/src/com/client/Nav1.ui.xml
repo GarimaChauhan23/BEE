@@ -1,0 +1,41 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui"
+	>
+	<ui:style>
+	.search{
+	size:200%;
+	padding-top: 7 %;
+	
+}
+	
+	</ui:style>
+	<g:HTMLPanel>
+		<m:MaterialHeader ui:field="header">
+            <m:MaterialNavBar ui:field="navBar" activates="sidenavNavShrink" backgroundColor="YELLOW_DARKEN_3" shadow="1">
+            
+                <m:MaterialNavBrand fontSize="2.2em" paddingLeft="60" text="BEE" />
+                <m:MaterialNavSection float="LEFT">
+    
+                    <m:MaterialButton ui:field="t3" iconType="HOME" paddingLeft="360" text="HOME" backgroundColor="YELLOW_DARKEN_3"/>
+                    <!--  <m:MaterialLink ui:field="tt1" iconType="BOOK" text="BOOKSHELF" /> -->
+                   
+                     <m:MaterialButton ui:field="tt1" text="BOOKSHELF" iconType="ARROW_DROP_DOWN" iconPosition="RIGHT" backgroundColor="YELLOW_DARKEN_3" textColor="WHITE" activates="dp-2"/>
+        <!-- My Drop Down -->
+          <m:MaterialDropDown activator="dp-2" constrainWidth="true"   backgroundColor="ORANGE_DARKEN_4">
+          <m:MaterialLink ui:field="book" text="BOOKS" />
+          <m:MaterialLink ui:field="gadget" text="GADGETS" />
+         
+        </m:MaterialDropDown>
+ 
+                    <m:MaterialButton ui:field="t2" text="SIGNUP" backgroundColor="YELLOW_DARKEN_3"/>
+                    <m:MaterialButton ui:field="t1" text="CAFE REGISTRATION" backgroundColor="YELLOW_DARKEN_3"/>
+                     <m:MaterialButton ui:field="t4" text="LOGIN" backgroundColor="YELLOW_DARKEN_3"/>
+                   
+                    
+                </m:MaterialNavSection>
+            </m:MaterialNavBar>
+        </m:MaterialHeader>
+	</g:HTMLPanel>
+</ui:UiBinder> 

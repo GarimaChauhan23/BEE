@@ -1,0 +1,42 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+             xmlns:g="urn:import:com.google.gwt.user.client.ui"
+             xmlns:ma="urn:import:gwt.material.design.addins.client"
+             xmlns:m="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+		 	 <m:MaterialPanel marginLeft="420" paddingBottom="10" >
+		 <m:MaterialRow width="160%"  >
+      <m:MaterialRow height="150%">
+       
+        
+        <m:MaterialColumn grid="l4" height="150%">
+          <m:MaterialCard backgroundColor="WHITE">
+            <m:MaterialCardContent textColor="BLACK">
+           
+                          <m:MaterialCardTitle  textColor="BLACK" text="SIGN-UP" />
+            <m:MaterialTextBox label="First Name" ui:field="t1" grid="s10"/>
+            <m:MaterialTextBox label="Last Name" ui:field="t2"  grid="s10"/>
+            <m:MaterialTextBox label="Username" ui:field="t3" grid="s6" />
+            <m:MaterialTextBox  label="Address" ui:field="t4" grid="s6"/>
+             <m:MaterialIntegerBox label="Contact Number" ui:field="t5" grid="s6" />
+             <m:MaterialTextBox  label="Password" ui:field="t6" grid="s6" />
+              <m:MaterialTextBox  label="Confirm Password" ui:field="t7" grid="s6" />
+             
+                 
+            </m:MaterialCardContent>
+            <m:MaterialCardAction>
+               <m:MaterialButton text="SIGN-UP" backgroundColor="AMBER_DARKEN_3" ui:field="b"/>
+            </m:MaterialCardAction>
+          </m:MaterialCard>
+        </m:MaterialColumn>
+      </m:MaterialRow>
+      </m:MaterialRow>
+      </m:MaterialPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

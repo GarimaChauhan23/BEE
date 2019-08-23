@@ -1,0 +1,84 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui"
+	>
+	<ui:style>
+	.important {
+		font-weight: bold;
+	};
+	.panel{
+   background: url("https://2.bp.blogspot.com/-x4D3EPELYRU/VMHu52a4qUI/AAAAAAAAHek/EmnIgqTtu_U/s0/fon116%2B2160x1920.png");
+   background-size: 50%;
+   padding: 0px !important;
+   padding-top: 40% !important;
+ };
+ .fieldPanel{
+   background: white;
+   padding: 6%;
+ };
+ .imgProfile{
+   margin-top: -120px;
+   width: 40%;
+   margin-left: 30%;
+   border: 5px solid #fff;
+ };
+ .rowAction{
+   margin-top: 20px;
+ };
+ .login_demo{
+   padding: 5%;
+ }
+	</ui:style>
+	<g:HTMLPanel>
+	 <m:MaterialPanel marginLeft="420" paddingBottom="10"  height="750" >
+		 <m:MaterialRow width="160%"  >
+      <m:MaterialRow>
+       
+        
+        <m:MaterialColumn grid="l4" height="150%">
+          <m:MaterialCard backgroundColor="WHITE">
+            <m:MaterialCardContent textColor="BLACK">
+             <m:MaterialCardTitle  textColor="BLACK" text="CAFE REGISTRATION" />
+         <m:MaterialTextBox label="Cafe Name" ui:field="t1"/> 
+        <m:MaterialTextBox label="Owner name"  ui:field ="t2"/> 
+        <m:MaterialTextBox label="Email" ui:field="t3"/> 
+        <m:MaterialTextBox label="Address" ui:field="t4"/> 
+        <m:MaterialIntegerBox label="Phone no." ui:field="t5"/> 
+        <m:MaterialTextBox label="login Id" ui:field="t6"/> 
+        <m:MaterialTextBox label="Password" ui:field="t7"/> 
+        <m:MaterialColumn backgroundColor="WHITE" grid="s13 m13 l3" shadow="3" waves="DEFAULT"/> <m:MaterialColumn backgroundColor="WHITE" grid="s12 m12 l2" shadow="2" waves="RED"/> <m:MaterialColumn backgroundColor="WHITE" grid="s12 m12 l2" shadow="3" waves="TEAL"/> <m:MaterialColumn backgroundColor="WHITE" grid="s12 m12 l2" shadow="4" waves="YELLOW"/> <m:MaterialColumn backgroundColor="WHITE" grid="s12 m12 l2" shadow="5" waves="PURPLE"/>
+        </m:MaterialCardContent>
+            <m:MaterialCardAction>
+                <m:MaterialButton ui:field="button1" text="SUBMIT" textColor ="WHITE" waves="LIGHT" float="RIGHT" backgroundColor="BLUE"></m:MaterialButton>  
+                 </m:MaterialCardAction>
+          </m:MaterialCard>
+        </m:MaterialColumn>
+      </m:MaterialRow>
+      </m:MaterialRow>
+      </m:MaterialPanel>
+		
+	</g:HTMLPanel>
+</ui:UiBinder> 
+	
+	
+	
+	
+	
+	
+		<!-- <m:MaterialRow addStyleNames="code">
+      <m:MaterialTitle ui:field="t9" title="Raised" description="The raised button is a standard button that signify actions and seek to give depth to a mostly flat page."/>
+      <m:MaterialButton ui:field="b1" margin="8" text="Button" waves="DEFAULT" backgroundColor="WHITE"  textColor="BLACK"/>
+      <m:MaterialButton ui:field="b2" margin="8" text="Primary" waves="LIGHT" textColor="WHITE" iconType="POLYMER" iconPosition="LEFT"/>
+      <m:MaterialButton ui:field="b3" margin="8" text="Disabled" waves="LIGHT" iconType="POLYMER" iconPosition="RIGHT" enabled="false"/>
+      <m:MaterialButton ui:field="b4" margin="8" text="Warn" waves="LIGHT" backgroundColor="RED" textColor="WHITE" iconType="POLYMER" iconPosition="RIGHT"/>
+      <m:MaterialButton ui:field="b5" margin="8" text="Icon Color" waves="RED" backgroundColor="WHITE" textColor="BLACK" iconType="POLYMER" iconPosition="RIGHT" iconColor="RED"/>
+      </m:MaterialRow>
+
+        <m:MaterialRow addStyleNames="code">
+            <m:MaterialTitle ui:field="t1" title="TextBox" description="Text fields allow user input. The border should light up simply and clearly indicating which field the user is currently editing. "/>
+            <m:MaterialTextBox ui:field="t2" label="First Name" grid="s12"/>
+            <m:MaterialTextBox ui:field="t3" label="Email" iconType="ACCOUNT_CIRCLE" grid="s12"/>
+        
+         </m:MaterialRow> -->
+	

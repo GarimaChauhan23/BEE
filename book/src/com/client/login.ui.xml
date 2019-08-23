@@ -1,0 +1,41 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui">
+	
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+		
+		<m:MaterialPanel marginLeft="420" paddingBottom="10" >
+		 <m:MaterialRow width="160%"  >
+      <m:MaterialRow height="150%">
+       
+        
+        <m:MaterialColumn grid="l4" height="150%">
+          <m:MaterialCard backgroundColor="WHITE">
+            <m:MaterialCardContent textColor="BLACK">
+           
+                          <m:MaterialCardTitle  textColor="BLACK" text="LOGIN" />
+           <m:MaterialTextBox label="username" ui:field = "t1" grid="s12" />
+		<m:MaterialTextBox label="password" type="PASSWORD" ui:field = "t2" grid="s12" />
+                 <m:MaterialCheckBox ui:field="tt3" text=" cafes only" value="false" />
+                 
+                 
+    
+                   
+            </m:MaterialCardContent>
+            <m:MaterialCardAction>
+               <m:MaterialButton text="LOGIN" backgroundColor="AMBER_DARKEN_3" ui:field="button1"/>
+               <m:MaterialLink text="new user ! Register here" ui:field="t3"></m:MaterialLink>
+            </m:MaterialCardAction>
+          </m:MaterialCard>
+        </m:MaterialColumn>
+      </m:MaterialRow>
+      </m:MaterialRow>
+      </m:MaterialPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 
